@@ -3,3 +3,7 @@
 ################################################################################
 
 /ServerSideSPASolution/.vs/ServerSideSPASolution
+/ServerSideSPASolution/ServerSideSPA.App/bin/Debug/netstandard2.0
+/ServerSideSPASolution/ServerSideSPA.App/obj
+/ServerSideSPASolution/ServerSideSPA.Server/bin/Debug/netcoreapp2.1
+/ServerSideSPASolution/ServerSideSPA.Server/obj
