@@ -32,6 +32,8 @@ namespace ServerSideSPA.App.Models
                 entity.Property(e => e.CityName).HasMaxLength(20).IsUnicode(false);
             });
 
+            modelBuilder.Entity<Cities>().HasData(new[] { new Cities { CityId = 1, CityName = "Vienna" }, new Cities { CityId = 2, CityName = "Linz" } });
+
             modelBuilder.Entity<Employee>(entity =>
             {
                 entity.Property(e => e.City)
